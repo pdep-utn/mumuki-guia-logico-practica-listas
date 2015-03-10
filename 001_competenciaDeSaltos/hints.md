@@ -1,0 +1,1 @@
+* investigar los predicado `nth1/3` y `nth0/3`.
