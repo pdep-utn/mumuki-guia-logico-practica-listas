@@ -58,7 +58,7 @@ Relaciona 2 vuelos si tienen al menos una ciudad en común.
 Relaciona 3 vuelos si están conectados, el primero con el segundo, y el segundo 
 con el tercero.
 
-## `bdistanciaEnEscalas/3`
+## `distanciaEnEscalas/3`
 Relaciona dos ciudades que son escalas del mismo vuelo y la cantidad de 
 escalas entre las mismas; si no hay escalas intermedias la distancia es 1. P.ej. París y Berlín están 
 a distancia 1 (por el vuelo BLE849), Berlín y Seúl están a distancia 3 (por el mismo vuelo). No 
