@@ -6,9 +6,9 @@ ingreso(luisa,febrero,850).
 padre(roque,luisa).
 
 test(roque_tiene_buen_pasar) :-
-  not(buenPasar(roque)).
+  buenPasar(roque).
 test(luisa_tiene_buen_pasar) :-
-  not(buenPasar(luisa)).  
+  buenPasar(luisa).  
 
 test(febrero_es_mes_filial_para_luisa) :-
   mesFilial(luisa, febrero).
