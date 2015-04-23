@@ -9,7 +9,7 @@ puntajes(ruben,[3,5,3,8,3]).
 puntajes(roque,[7,10,10]).
 ```
 
-Se pide armar desarrollar:
+Se pide desarrollar:
 
 ## `puntajeCompetidor/3`
 
