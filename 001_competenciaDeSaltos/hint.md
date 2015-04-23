@@ -1,1 +1,1 @@
-* investigar los predicado `nth1/3` y `nth0/3`.
+* Investigar los predicados `nth1/3` y `nth0/3`.
