@@ -26,7 +26,8 @@ test(escala_aburrida_ble849_es_moscu) :-
 test(ciudades_aburridas_ble859_moscu) :-
   ciudadesAburridas(ble849, [moscu]).
 
-test(vuelo_largo_)
+test(vuelo_largo_dsm3450) :-
+  vueloLargo(dsm3450).
 
 test(conectados_ble849_npo556) :-
   conectados(ble849, npo556).
