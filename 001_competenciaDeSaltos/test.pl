@@ -26,7 +26,7 @@ test(julio_esta_descalificado) :-
   competidorDescalificado(julio).
 
 
-test(hernan_esta_descalificado) :-
+test(hernan_no_esta_descalificado, fail) :-
   competidorDescalificado(hernan).
 
 
