@@ -18,7 +18,7 @@ test(ruben_hizo_5_puntos_en_2) :-
   assertion(Puntaje == 5).
 
 test(ruben_hizo_3_puntos_en_5) :-
-  puntajeCompetidor(hernan, 5, Puntaje),
+  puntajeCompetidor(ruben, 5, Puntaje),
   assertion(Puntaje == 3).
 
 
