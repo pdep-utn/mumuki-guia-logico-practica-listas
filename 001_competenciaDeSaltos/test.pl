@@ -34,7 +34,7 @@ test(roque_no_esta_descalificado) :-
   not(competidorDescalificado(roque)).
 
 test(roque_clasifica) :-
-  competidoClasifica(roque).
+  competidorClasifica(roque).
 
 test(ruben_no_clasifica) :-
-  not(competidoClasifica(ruben)).
+  not(competidorClasifica(ruben)).
