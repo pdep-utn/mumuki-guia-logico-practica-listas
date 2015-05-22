@@ -18,7 +18,7 @@ Relaciona a un competidor con el puntaje que obtuvo en un cierto salto.
 Ejemplo:
 
 ```prolog
-? puntajeCompetidos(hernan, 4, Puntaje).
+? puntajeCompetidor(hernan, 4, Puntaje).
 
 Puntaje = 6
 ```
