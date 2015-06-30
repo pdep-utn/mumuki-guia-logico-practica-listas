@@ -17,7 +17,7 @@ Sabiendo que no hay dos estaciones con el mismo nombre, se pide desarrollar los 
 
 * `estaEn/2`: que relaciona una estacion con la linea a la que pertenece.
 * `distancia/3`: que relaciona dos estaciones de la misma linea, con la cantidad de estaciones que hay entre ellas.
-* `mismaAltura/2`: relaciona a dos estaciones de distintas lineas si se encuentran a la misma altura. P.ej:
+* `mismaAltura/2`: relaciona a dos estaciones de distintas lineas si se encuentran a la misma altura.
 * `viajeFacil/2`: que relaciona dos estaciones si puedo llegar facil de una a la otra, es decir si estan en la misma linea o solo se requiere una combinacion.
 
 Ejemplos:
