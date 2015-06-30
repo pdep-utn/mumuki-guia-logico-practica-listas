@@ -5,7 +5,7 @@ test(once_esta_en_la_h, [nondet]) :-
 
 
 test(distancia_entre_peru_y_primeraJunta_es_3, [nondet]) :-
-  distancia(peru, primaraJunta, Distancia),
+  distancia(peru, primeraJunta, Distancia),
   assertion(Distancia == 3).
 
 test(pellegrini_independencia_misma_altura, [nondet]) :-
