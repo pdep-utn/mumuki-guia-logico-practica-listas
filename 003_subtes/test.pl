@@ -13,8 +13,8 @@ test(distancia_entre_pellegrini_y_alem_es_1, [nondet]) :-
   assertion(Distancia == 1).
 
 
-test(pellegrini_diagonalNorte_misma_altura, [nondet]) :-
-  mismaAltura(pellegrini, diagonalNorte).
+test(pellegrini_diagNorte_misma_altura, [nondet]) :-
+  mismaAltura(pellegrini, diagNorte).
 test(alem_catedral_misma_altura, [nondet]) :-
   mismaAltura(alem, catedral).
 
