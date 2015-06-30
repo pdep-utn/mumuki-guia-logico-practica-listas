@@ -5,9 +5,13 @@ test(lacroze_esta_en_la_b, [nondet]) :-
 test(retiro_esta_en_la_c, [nondet]) :-
   estaEn(retiro, c).
 
-test(distancia_entre_peru_y_primeraJunta_es_4, [nondet]) :-
+test(distancia_entre_peru_y_primeraJunta_es_5, [nondet]) :-
   distancia(peru, primeraJunta, Distancia),
-  assertion(Distancia == 4).
+  assertion(Distancia == 5).
+test(distancia_entre_pellegrini_y_allem_es_1, [nondet]) :-
+  distancia(pellegrini, allem, Distancia),
+  assertion(Distancia == 1).
+
 
 test(pellegrini_diagonalNorte_misma_altura, [nondet]) :-
   mismaAltura(pellegrini, diagonalNorte).
