@@ -4,9 +4,9 @@ test(once_esta_en_la_h, [nondet]) :-
   estaEn(once, h).
 
 
-test(distancia_entre_peru_y_primeraJunta_es_3, [nondet]) :-
+test(distancia_entre_peru_y_primeraJunta_es_4, [nondet]) :-
   distancia(peru, primeraJunta, Distancia),
-  assertion(Distancia == 3).
+  assertion(Distancia == 4).
 
 test(pellegrini_independencia_misma_altura, [nondet]) :-
   mismaAltura(pellegrini, independencia).
