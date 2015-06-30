@@ -8,8 +8,8 @@ test(retiro_esta_en_la_c, [nondet]) :-
 test(distancia_entre_peru_y_primeraJunta_es_5, [nondet]) :-
   distancia(peru, primeraJunta, Distancia),
   assertion(Distancia == 5).
-test(distancia_entre_pellegrini_y_allem_es_1, [nondet]) :-
-  distancia(pellegrini, allem, Distancia),
+test(distancia_entre_pellegrini_y_alem_es_1, [nondet]) :-
+  distancia(pellegrini, alem, Distancia),
   assertion(Distancia == 1).
 
 
