@@ -17,12 +17,10 @@ Ejemplos:
 
 ```prolog
 ? puntajeCompetidor(hernan, 4, Puntaje).
-
 Puntaje = 6
 ```
 
 ```prolog
 ? competidorDescalificado(julio).
-
 yes
 ```
