@@ -18,8 +18,10 @@ padre(roque,luisa).
 
 Desarrollar los siguientes predicados:
 
-* `buenPasar/1`: que se verifica para una persona si en enero ganó más de 2200, en algún mes ganó más de 3000, o ganó más de 2500 en dos meses distintos (esto se puede hacer sin listas, usar el \= para decir 
-  que los meses son distintos).
+* `buenPasar/1`: que se verifica para una persona si
+  * en enero ganó más de 2200
+  * o bien en algún mes ganó más de 3000
+  * o bien ganó más de 2500 en dos meses distintos
 * `mesFilial/2`: que relaciona una persona X con un mes si en ese mes hay algún hijo de X que haya 
 ganado más que X. Ejemplo:
 
