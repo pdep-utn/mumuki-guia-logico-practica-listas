@@ -18,18 +18,18 @@ padre(roque,luisa).
 
 Desarrollar los siguientes predicados:
 
-1. `buenPasar/1`: que se verifica para una persona si en enero ganó más de 2200, en algún mes ganó más de 3000, o ganó más de 2500 en dos meses distintos (esto se puede hacer sin listas, usar el \= para decir 
+* `buenPasar/1`: que se verifica para una persona si en enero ganó más de 2200, en algún mes ganó más de 3000, o ganó más de 2500 en dos meses distintos (esto se puede hacer sin listas, usar el \= para decir 
   que los meses son distintos).
-2. `mesFilial/2`: que relaciona una persona X con un mes si en ese mes hay algún hijo de X que haya 
-ganado más que X. 
-3. `ingresoTotal/2`: que relaciona una persona con su ingreso total de una persona en el año; entendiendo 
-que toda la información de la base de conocimiento corresponde al mismo año.
-4. `ingresoFamiliar/2`: que relaciona una persona con su ingreso familiar en el año; el ingreso familiar de 
-una persona es su ingreso total más la suma de los ingresos totales de sus hijos
-
-Ejemplos:
+* `mesFilial/2`: que relaciona una persona X con un mes si en ese mes hay algún hijo de X que haya 
+ganado más que X. Ejemplo:
 
 ```prolog
 ?- mesFilial(luisa,febrero).
 yes
 ```
+
+* `ingresoTotal/2`: que relaciona una persona con su ingreso total de una persona en el año; entendiendo 
+que toda la información de la base de conocimiento corresponde al mismo año.
+* `ingresoFamiliar/2`: que relaciona una persona con su ingreso familiar en el año; el ingreso familiar de 
+una persona es su ingreso total más la suma de los ingresos totales de sus hijos
+
