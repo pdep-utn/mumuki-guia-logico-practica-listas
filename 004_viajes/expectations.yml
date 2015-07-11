@@ -1,0 +1,17 @@
+expectations:
+ - binding: tiempoTotalVuelo
+   inspection: HasBinding
+ - binding: escalaAburrida
+   inspection: HasBinding
+ - binding: ciudadesAburridas
+   inspection: HasBinding
+ - binding: vueloLargo
+   inspection: HasBinding
+ - binding: conectados
+   inspection: HasBinding
+ - binding: bandaDeTres
+   inspection: HasBinding
+ - binding: distanciaEnEscalas
+   inspection: HasBinding
+ - binding: vueloLento
+   inspection: HasBinding
