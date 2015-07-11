@@ -1,29 +1,30 @@
-test(tiempo_vuelo_arg845_es_2) :-
+test('la consulta tiempoTotalVuelo(arg845, 2) es verdadera') :-
   tiempoTotalVuelo(arg845, 2).
 
-test(escala_aburrida_ble849_es_moscu) :-
+test('la consulta escalaAburrida(ble849, moscu) es verdadera') :-
   escalaAburrida(ble849, moscu).
 
-test(ciudades_aburridas_ble859_moscu) :-
+test('la consulta ciudadesAburridas(ble849, [moscu]) es verdadera') :-
   ciudadesAburridas(ble849, [moscu]).
 
-test(vuelo_largo_dsm3450) :-
+test('la consulta vueloLargo(dsm3450) es verdadera') :-
   vueloLargo(dsm3450).
 
-test(conectados_ble849_npo556) :-
+test('la consulta conectados(ble849, npo556) es verdadera') :-
   conectados(ble849, npo556).
 
-test(banda_de_tres_arg845_dsm3450_ble849) :-
+test('la consulta bandaDeTres(arg845, dsm3450, ble849) es verdadera') :-
   bandaDeTres(arg845, dsm3450, ble849).
 
-test(distancia_en_escalas_paris_berlin_1):-
+test('la consulta distanciaEnEscalas(paris, berlin, 1) es verdadera'):-
   distanciaEnEscalas(paris, berlin, 1).
+  
 test(distancia_en_escalas_rosario_buenosAires_1):-
   distanciaEnEscalas(rosario, buenosAires, 1).
 
-test(vuelo_no_lento_arg845):-
-  not(vueloLento(arg845)).
-test(vuelo_no_lento_npo556):-
-  not(vueloLento(npo556)).
-test(vuelo_no_lento_aal1803):-
-  not(vueloLento(aal1803)).
+test('la consulta vueloLento(arg845) es falsa', fail):-
+  vueloLento(arg845).
+test('la consulta vueloLento(npo556) es falsa', fail):-
+  vueloLento(npo556).
+test('la consulta vueloLento(aal1803) es falsa', fail):-
+  vueloLento(aal1803).
