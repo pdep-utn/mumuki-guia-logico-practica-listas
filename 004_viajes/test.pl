@@ -10,17 +10,25 @@ test('la consulta ciudadesAburridas(ble849, [moscu]) es verdadera') :-
 test('la consulta vueloLargo(dsm3450) es verdadera') :-
   vueloLargo(dsm3450).
 
-test('la consulta conectados(ble849, npo556) es verdadera') :-
+test('la consulta conectados(ble849, npo556) es verdadera (porque tienen a moscu en común)') :-
   conectados(ble849, npo556).
 
+test('la consulta conectados(arg845, dsm3450) es verdadera (porque tienen a buenosAires en común)') :-
+  conectados(arg845, dsm3450).
+
+test('la consulta conectados(dlh470, ble849) es verdadera (porque tienen a berlin en común)') :-
+  conectados(dlh470, ble849).
+  
 test('la consulta bandaDeTres(arg845, dsm3450, ble849) es verdadera') :-
   bandaDeTres(arg845, dsm3450, ble849).
 
-test('la consulta distanciaEnEscalas(paris, berlin, 1) es verdadera'):-
-  distanciaEnEscalas(paris, berlin, 1).
-  
-test(distancia_en_escalas_rosario_buenosAires_1):-
-  distanciaEnEscalas(rosario, buenosAires, 1).
+test('la distancia en escalas paris-berlin es 1'):-
+  distanciaEnEscalas(paris, berlin, X),
+  assertion( X =:= 1).
+
+test('la distancia en escalas rosario-buenosAires es 1'):-
+  distanciaEnEscalas(rosario, buenosAires, X),
+  assertion( X =:= 1 ).
 
 test('la consulta vueloLento(arg845) es falsa', fail):-
   vueloLento(arg845).
