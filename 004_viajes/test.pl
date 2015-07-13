@@ -2,10 +2,14 @@ test('la consulta tiempoTotalVuelo(arg845, 2) es verdadera') :-
   tiempoTotalVuelo(arg845, 2).
 
 test('la consulta escalaAburrida(ble849, escala(moscu, 4)) es verdadera', [nondet]) :-
-  escalaAburrida(ble849, moscu).
+  escalaAburrida(ble849, escala(moscu, 4)).
 
 test('la consulta escalaAburrida(npo556, escala(nuevaDelhi, 6)) es verdadera', [nondet]) :-
-  escalaAburrida(npo556, nuevaDelhi).
+  escalaAburrida(npo556, escala(nuevaDelhi, 6)).
+
+
+test('la consulta escalaAburrida(npo556, escala(kiev,0)) es falsa', [fail]) :-
+  escalaAburrida(npo556, escala(kiev,0)).
 
 test('la consulta ciudadesAburridas(ble849, [moscu]) es verdadera') :-
   ciudadesAburridas(ble849, [moscu]).
