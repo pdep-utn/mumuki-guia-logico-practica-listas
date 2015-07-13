@@ -4,6 +4,9 @@ test('la consulta tiempoTotalVuelo(arg845, 2) es verdadera') :-
 test('la consulta escalaAburrida(ble849, moscu) es verdadera') :-
   escalaAburrida(ble849, moscu).
 
+test('la consulta escalaAburrida(npo556, nuevaDelhi) es verdadera') :-
+  escalaAburrida(npo556, nuevaDelhi).
+
 test('la consulta ciudadesAburridas(ble849, [moscu]) es verdadera') :-
   ciudadesAburridas(ble849, [moscu]).
 
