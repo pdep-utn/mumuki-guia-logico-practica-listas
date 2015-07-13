@@ -10,13 +10,13 @@ test('la consulta ciudadesAburridas(ble849, [moscu]) es verdadera') :-
 test('la consulta vueloLargo(dsm3450) es verdadera') :-
   vueloLargo(dsm3450).
 
-test('la consulta conectados(ble849, npo556) es verdadera (porque tienen a moscu en común)') :-
+test('la consulta conectados(ble849, npo556) es verdadera (porque tienen a moscu en común)', [nondet]) :-
   conectados(ble849, npo556).
 
-test('la consulta conectados(arg845, dsm3450) es verdadera (porque tienen a buenosAires en común)') :-
+test('la consulta conectados(arg845, dsm3450) es verdadera (porque tienen a buenosAires en común)', [nondet]) :-
   conectados(arg845, dsm3450).
 
-test('la consulta conectados(dlh470, ble849) es verdadera (porque tienen a berlin en común)') :-
+test('la consulta conectados(dlh470, ble849) es verdadera (porque tienen a berlin en común)', [nondet]) :-
   conectados(dlh470, ble849).
   
 test('la consulta bandaDeTres(arg845, dsm3450, ble849) es verdadera') :-
