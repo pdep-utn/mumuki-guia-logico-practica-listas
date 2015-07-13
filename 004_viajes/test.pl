@@ -19,7 +19,7 @@ test('la consulta conectados(arg845, dsm3450) es verdadera (porque tienen a buen
 test('la consulta conectados(dlh470, ble849) es verdadera (porque tienen a berlin en común)', [nondet]) :-
   conectados(dlh470, ble849).
   
-test('la consulta bandaDeTres(arg845, dsm3450, ble849) es verdadera') :-
+test('la consulta bandaDeTres(arg845, dsm3450, ble849) es verdadera', [nondet]) :-
   bandaDeTres(arg845, dsm3450, ble849).
 
 test('la distancia en escalas paris-berlin es 1'):-
