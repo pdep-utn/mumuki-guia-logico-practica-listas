@@ -1,3 +1,12 @@
-name: 'Práctica Listas'
+---
+name: Práctica Listas
 locale: es
+type: practice
+beta: false
 language: prolog
+id_format: '%05d'
+order:
+- 1
+- 2
+- 3
+- 4
