@@ -1,9 +1,0 @@
-expectations:
- - binding: estaEn
-   inspection: HasBinding
- - binding: distancia
-   inspection: HasBinding
- - binding: mismaAltura
-   inspection: HasBinding
- - binding: viajeFacil
-   inspection: HasBinding
