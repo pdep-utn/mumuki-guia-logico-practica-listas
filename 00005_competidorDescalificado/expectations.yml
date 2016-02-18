@@ -1,0 +1,6 @@
+---
+expectations:
+- binding: competidorDescalificado
+  inspection: HasBinding
+- binding: competidorDescalificado
+  inspection: HasArity:1

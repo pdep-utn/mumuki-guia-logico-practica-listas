@@ -1,0 +1,6 @@
+---
+expectations:
+- binding: puntajeCompetidor
+  inspection: HasBinding
+- binding: puntajeCompetidor
+  inspection: HasArity:3

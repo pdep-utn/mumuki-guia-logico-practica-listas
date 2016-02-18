@@ -1,6 +1,5 @@
-Esta es una guía de ejercicios sobre listas, basada en la Guía 3 de Lógico de PdeP UTN. 
+¡Hola!
 
-Vas a ver que estos ejercicios son un poco más largos que los anteriores; encaralos con tiempo y punto por punto. 
+Ya vimos todos los conceptos fundamentales del paradigma lógico: predicados, hechos y reglas, variables, individuos, inversibilidad, cuantificación... ¡Y acabamos de incorporar dos poderosas herramientas! Las listas y el predicado `findall`, que permite combinar multiples respuestas en una sóla.
 
-
-
+¡Es hora entonces de practicar sobre su uso!
