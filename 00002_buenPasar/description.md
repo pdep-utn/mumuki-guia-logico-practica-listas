@@ -8,14 +8,6 @@ ingreso(luisa,enero,2500).
 ingreso(luisa,febrero,850).
 ```
 
-y se tiene la relación `padre/2` que indica `padre(Hijo, Padre)`, por ejemplo para decir que Luisa es la madre de Roque se agrega esta cláusula
-
-```prolog
-padre(roque,luisa).
-```
-
-(léase "uno de los padres de Roque es Luisa").
-
 Desarrollá `buenPasar/1`: que se verifica para una persona si
 
   * en enero ganó más de 2200
