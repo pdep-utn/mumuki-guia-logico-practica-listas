@@ -1,4 +1,4 @@
-Ahora queremos saber si un competidor  está descalificado: esto ocurre cuando hizo más de 5 saltos diferentes. 
+Ahora queremos saber si un competidor  está descalificado: esto ocurre cuando hizo más de 5 saltos. 
 
 > Escribí el predicado `competidorDescalificado/1`
 >
