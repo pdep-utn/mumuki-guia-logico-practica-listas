@@ -1,6 +1,8 @@
 ---
 expectations:
-- binding: competidorDescalificado
+- !ruby/hash:BSON::Document
+  binding: competidorDescalificado
   inspection: HasBinding
-- binding: competidorDescalificado
+- !ruby/hash:BSON::Document
+  binding: competidorDescalificado
   inspection: HasArity:1

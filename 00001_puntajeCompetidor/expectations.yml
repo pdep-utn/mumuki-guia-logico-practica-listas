@@ -1,6 +1,8 @@
 ---
 expectations:
-- binding: puntajeCompetidor
+- !ruby/hash:BSON::Document
+  binding: puntajeCompetidor
   inspection: HasBinding
-- binding: puntajeCompetidor
+- !ruby/hash:BSON::Document
+  binding: puntajeCompetidor
   inspection: HasArity:3
