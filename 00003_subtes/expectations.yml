@@ -1,14 +1,10 @@
 ---
 expectations:
-- !ruby/hash:BSON::Document
-  binding: estaEn
+- binding: estaEn
   inspection: HasBinding
-- !ruby/hash:BSON::Document
-  binding: distancia
+- binding: distancia
   inspection: HasBinding
-- !ruby/hash:BSON::Document
-  binding: mismaAltura
+- binding: mismaAltura
   inspection: HasBinding
-- !ruby/hash:BSON::Document
-  binding: viajeFacil
+- binding: viajeFacil
   inspection: HasBinding

@@ -1,5 +1,4 @@
 ---
 expectations:
-- !ruby/hash:BSON::Document
-  binding: ingresoFamiliar
+- binding: ingresoFamiliar
   inspection: HasBinding

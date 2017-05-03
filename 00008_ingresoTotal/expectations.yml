@@ -1,5 +1,4 @@
 ---
 expectations:
-- !ruby/hash:BSON::Document
-  binding: ingresoTotal
+- binding: ingresoTotal
   inspection: HasBinding

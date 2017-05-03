@@ -1,26 +1,18 @@
 ---
 expectations:
-- !ruby/hash:BSON::Document
-  binding: tiempoTotalVuelo
+- binding: tiempoTotalVuelo
   inspection: HasBinding
-- !ruby/hash:BSON::Document
-  binding: escalaAburrida
+- binding: escalaAburrida
   inspection: HasBinding
-- !ruby/hash:BSON::Document
-  binding: ciudadesAburridas
+- binding: ciudadesAburridas
   inspection: HasBinding
-- !ruby/hash:BSON::Document
-  binding: vueloLargo
+- binding: vueloLargo
   inspection: HasBinding
-- !ruby/hash:BSON::Document
-  binding: conectados
+- binding: conectados
   inspection: HasBinding
-- !ruby/hash:BSON::Document
-  binding: bandaDeTres
+- binding: bandaDeTres
   inspection: HasBinding
-- !ruby/hash:BSON::Document
-  binding: distanciaEnEscalas
+- binding: distanciaEnEscalas
   inspection: HasBinding
-- !ruby/hash:BSON::Document
-  binding: vueloLento
+- binding: vueloLento
   inspection: HasBinding
