@@ -1,0 +1,6 @@
+---
+expectations:
+- binding: muchoTesting
+  inspection: HasBinding
+- binding: muchoTesting
+  inspection: HasArity:1
