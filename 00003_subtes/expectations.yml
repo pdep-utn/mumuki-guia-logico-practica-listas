@@ -1,10 +1,14 @@
 ---
 expectations:
-- binding: estaEn
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: estaEn
   inspection: HasBinding
-- binding: distancia
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: distancia
   inspection: HasBinding
-- binding: mismaAltura
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: mismaAltura
   inspection: HasBinding
-- binding: viajeFacil
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: viajeFacil
   inspection: HasBinding

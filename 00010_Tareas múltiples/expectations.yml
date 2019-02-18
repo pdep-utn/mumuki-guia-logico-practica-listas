@@ -1,6 +1,8 @@
 ---
 expectations:
-- binding: muchoTesting
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: muchoTesting
   inspection: HasBinding
-- binding: muchoTesting
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: muchoTesting
   inspection: HasArity:1
