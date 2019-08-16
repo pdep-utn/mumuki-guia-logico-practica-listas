@@ -30,8 +30,7 @@ Definir los siguientes predicados; en todos vamos a identificar cada vuelo por s
 * `tiempoTotalVuelo/2`: que  relaciona un vuelo con el tiempo que lleva en total, contando las esperas en
 las escalas (y eventualmente en el origen y/o destino) más el tiempo de vuelo.
 * `escalaAburrida/2`: Relaciona un vuelo con cada una de sus escalas aburridas; una escala es
-aburrida si hay que esperar mas de 3 horas
-* `ciudadesAburridas/2`: Relaciona un vuelo con la lista de ciudades de sus escalas aburridas.
+aburrida si hay que esperar mas de 3 horas.
 * `vueloLargo/1`: Si un vuelo pasa 10 o más horas en el aire, entonces es un vuelo largo. OJO que dice "en el aire", en este punto no hay que contar las esperas en tierra.
 * `conectados/2`: Relaciona 2 vuelos si tienen al menos una ciudad en común.
 * `bandaDeTres/3`: relaciona 3 vuelos si están conectados, el primero con el segundo, y el segundo

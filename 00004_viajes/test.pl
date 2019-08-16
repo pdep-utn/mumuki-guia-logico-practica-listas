@@ -11,15 +11,6 @@ test('la consulta escalaAburrida(npo556, escala(nuevaDelhi, 6)) es verdadera', [
 test('la consulta escalaAburrida(npo556, escala(kiev,0)) es falsa', [fail]) :-
   escalaAburrida(npo556, escala(kiev,0)).
 
-test('la consulta ciudadesAburridas(ble849, [moscu]) es verdadera') :-
-  ciudadesAburridas(ble849, [moscu]).
-  
-test('la consulta ciudadesAburridas(npo556, [nuevaDelhi,hongKong,shanghai]) es verdadera') :-
-  ciudadesAburridas(npo556, [nuevaDelhi,hongKong,shanghai]).
-  
-test('los vuelos arg845, mh101, dlh470 no tienen ciudades aburridas', set(Vuelo == [arg845, mh101, dlh470])) :-
-  ciudadesAburridas(Vuelo, []).
-
 test('la consulta vueloLargo(dsm3450) es verdadera') :-
   vueloLargo(dsm3450).
 
